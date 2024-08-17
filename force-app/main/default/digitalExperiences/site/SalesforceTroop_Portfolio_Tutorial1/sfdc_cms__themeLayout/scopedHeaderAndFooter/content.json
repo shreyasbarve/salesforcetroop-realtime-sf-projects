@@ -1,0 +1,79 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Scoped Header and Footer",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"0b7f252c-d7b7-45e1-b6a4-7f10b8457fa6\",\"columns\":[{\"UUID\":\"f5b0a5fd-111a-4d2a-bbd3-b81c98d9a0dc\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "id" : "f5b0a5fd-111a-4d2a-bbd3-b81c98d9a0dc",
+            "name" : "headerSection",
+            "title" : "Theme Header",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "0b7f252c-d7b7-45e1-b6a4-7f10b8457fa6",
+          "type" : "component"
+        } ],
+        "id" : "26221866-a05a-49d1-b74f-04840f932422",
+        "name" : "header",
+        "title" : "Theme Header",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "objectApiName" : "Portfolio__c",
+            "recordId" : "a0SJ3000000sqQmMAI"
+          },
+          "definition" : "c:portfolioTabsWrapper",
+          "id" : "92e2de7a-4a73-4d46-8a25-c6f38a749b0b",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"b25ec29c-c0af-4df7-a358-e244e6f0686e\",\"columns\":[{\"UUID\":\"6cada7c8-afa8-4484-b353-f1c3a629c469\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div style=\"padding-top: 16px; background: #fff;\">\n\t<p style=\"background: #f6c403; padding: 16px; margin-top: 16px; text-align: center;\">Built by Creative Otter.</p>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "30eef56e-fbbe-46cc-bcea-6a17c9109e29",
+              "type" : "component"
+            } ],
+            "id" : "6cada7c8-afa8-4484-b353-f1c3a629c469",
+            "name" : "footerSection",
+            "title" : "Theme Footer",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "b25ec29c-c0af-4df7-a358-e244e6f0686e",
+          "type" : "component"
+        } ],
+        "id" : "c9b183e4-8bb5-4122-b964-4f943b30d269",
+        "name" : "footer",
+        "title" : "Theme Footer",
+        "type" : "region"
+      } ],
+      "definition" : "community_byo:scopedHeaderAndFooter",
+      "id" : "8d6a0c79-296e-44fc-be98-7a5eea834773",
+      "type" : "component"
+    }
+  }
+}

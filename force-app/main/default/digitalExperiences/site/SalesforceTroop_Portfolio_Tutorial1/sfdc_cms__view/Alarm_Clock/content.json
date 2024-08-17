@@ -1,0 +1,65 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Alarm Clock",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"922e1227-439d-4330-a5fa-cbc900993dd9\",\"columns\":[{\"UUID\":\"782a8006-f1ca-45dc-830b-05e6a546aac6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { }
+              },
+              "definition" : "c:alarmClockApp",
+              "id" : "ca5a46fe-716e-40c1-8f92-b72efde7aac7",
+              "type" : "component"
+            } ],
+            "id" : "782a8006-f1ca-45dc-830b-05e6a546aac6",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "922e1227-439d-4330-a5fa-cbc900993dd9",
+          "type" : "component"
+        } ],
+        "id" : "0ae29550-27b2-42ed-af10-56461d5c931e",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Alarm Clock",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "c3294a70-da93-4809-a2ec-57de51c111a3",
+          "type" : "component"
+        } ],
+        "id" : "18812da4-f1c8-49ae-a131-4ec2cf96352b",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "c74a734f-53c8-424d-bc34-b2e19ceb93b5",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-alarm-clock"
+  }
+}

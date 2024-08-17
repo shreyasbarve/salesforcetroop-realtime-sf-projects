@@ -1,0 +1,84 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"d39f6bc9-4b0e-42ac-8441-839aba5418a2\",\"columns\":[{\"UUID\":\"14afd912-aaae-4d25-8f5c-42fe243fdc85\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "bloggerUrl" : "https://www.blogger.com",
+                "githubUrl" : "https://www.github.com",
+                "linkedinUrl" : "https://www.linkedin.com",
+                "recordId" : "a0SJ3000000sqQmMAI",
+                "trailheadUrl" : "https://www.trailhead.com",
+                "twitterUrl" : "https://www.twitter.com",
+                "youtubeUrl" : "https://www.youtube.com"
+              },
+              "definition" : "c:portfolioBanner",
+              "id" : "fae0f995-2068-421f-89e0-4d4957559ced",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "badges" : "170+",
+                "objectApiName" : "Portfolio__c",
+                "points" : "190,000+",
+                "rank" : "Triple star ranger",
+                "recordId" : "a0SJ3000000sqQmMAI",
+                "resumeUrl" : "https://creative-otter-p6qqwp-dev-ed.trailblaze.file.force.com/sfc/servlet.shepherd/document/download/069J3000001lGm9IAE?operationContext=S1",
+                "trails" : "20+"
+              },
+              "definition" : "c:portfolioUserDetailsAndStatsWrapper",
+              "id" : "da4912cf-1ad5-4410-be70-b2d33d2021b2",
+              "type" : "component"
+            } ],
+            "id" : "14afd912-aaae-4d25-8f5c-42fe243fdc85",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d39f6bc9-4b0e-42ac-8441-839aba5418a2",
+          "type" : "component"
+        } ],
+        "id" : "30395169-31c1-4554-9763-49788661ffa4",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "09cd555c-e619-4719-bfc4-032066f9962d",
+          "type" : "component"
+        } ],
+        "id" : "d1cdd25b-eee0-41be-b7f8-d2666336c538",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "98d785a6-754f-4612-9614-34c7759b332e",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  }
+}

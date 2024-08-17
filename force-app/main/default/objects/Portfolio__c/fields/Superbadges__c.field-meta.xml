@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Superbadges__c</fullName>
+    <externalId>false</externalId>
+    <label>Superbadges</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Admin Super Set</fullName>
+                <default>false</default>
+                <label>Admin Super Set</label>
+            </value>
+            <value>
+                <fullName>Developer Super Set</fullName>
+                <default>false</default>
+                <label>Developer Super Set</label>
+            </value>
+            <value>
+                <fullName>Consultant Super Set</fullName>
+                <default>false</default>
+                <label>Consultant Super Set</label>
+            </value>
+            <value>
+                <fullName>Manager Super Set</fullName>
+                <default>false</default>
+                <label>Manager Super Set</label>
+            </value>
+            <value>
+                <fullName>Apex Specialist</fullName>
+                <default>false</default>
+                <label>Apex Specialist</label>
+            </value>
+            <value>
+                <fullName>App Builder Super Set</fullName>
+                <default>false</default>
+                <label>App Builder Super Set</label>
+            </value>
+            <value>
+                <fullName>Billing Specialist</fullName>
+                <default>false</default>
+                <label>Billing Specialist</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

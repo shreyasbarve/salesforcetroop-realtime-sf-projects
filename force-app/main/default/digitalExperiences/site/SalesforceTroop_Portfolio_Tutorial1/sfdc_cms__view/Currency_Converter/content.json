@@ -1,0 +1,65 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Currency Converter",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"8cb356fb-e7b2-4a84-aed8-c2cd2e3ac132\",\"columns\":[{\"UUID\":\"8c06f768-e703-48a9-a4e3-b92f00f341f2\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { }
+              },
+              "definition" : "c:currencyConverter",
+              "id" : "e4a7f4ee-8423-43b3-9ce0-58fc52bf9661",
+              "type" : "component"
+            } ],
+            "id" : "8c06f768-e703-48a9-a4e3-b92f00f341f2",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "8cb356fb-e7b2-4a84-aed8-c2cd2e3ac132",
+          "type" : "component"
+        } ],
+        "id" : "c99fa08d-1e92-4a5d-97a1-ceb5227bdb20",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Currency Converter",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "d9ae4794-0301-4a9b-82de-e7286886178a",
+          "type" : "component"
+        } ],
+        "id" : "a0f18b47-6d5c-440c-ab52-98902c6399a0",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "d9f36836-47d7-4dc3-895b-254dd523c76b",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-currency-converter"
+  }
+}

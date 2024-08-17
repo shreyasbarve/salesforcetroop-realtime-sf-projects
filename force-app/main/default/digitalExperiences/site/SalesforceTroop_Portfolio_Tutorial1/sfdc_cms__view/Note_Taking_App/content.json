@@ -1,0 +1,65 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Note Taking App",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"bf4956f6-05af-40a2-8fdf-fe9a3d10bfd0\",\"columns\":[{\"UUID\":\"7c9cac86-cc44-4810-8b63-d3b352bb2581\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { }
+              },
+              "definition" : "c:noteTakingApp",
+              "id" : "809ae5ef-ebf1-48ac-bcbd-c5313cccde52",
+              "type" : "component"
+            } ],
+            "id" : "7c9cac86-cc44-4810-8b63-d3b352bb2581",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "bf4956f6-05af-40a2-8fdf-fe9a3d10bfd0",
+          "type" : "component"
+        } ],
+        "id" : "419ee814-e61a-4ba0-a35a-7aa4219b15d3",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Note Taking App",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "fb4db9db-9f01-4d05-a0f3-2cb7071a5314",
+          "type" : "component"
+        } ],
+        "id" : "6b64230e-b6aa-4c36-a238-88c658913f46",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "226bbd1b-9a0a-483c-8183-01573b2c85ae",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-note-taking-app"
+  }
+}

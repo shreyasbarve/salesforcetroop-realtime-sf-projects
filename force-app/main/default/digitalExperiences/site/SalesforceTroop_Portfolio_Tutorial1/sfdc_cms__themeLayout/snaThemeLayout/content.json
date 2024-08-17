@@ -1,0 +1,23 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Service Not Available Theme Layout",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "children" : [ {
+        "id" : "6aca5daf-d01b-46ad-82e3-0fa134c9da41",
+        "name" : "header",
+        "title" : "Theme Header",
+        "type" : "region"
+      }, {
+        "id" : "f3e8ca13-609c-476c-9d78-6ac5dfe89f72",
+        "name" : "footer",
+        "title" : "Theme Footer",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:simpleThemeLayout",
+      "id" : "434fa5b9-e038-44ab-9d5d-3a08eb26290c",
+      "type" : "component"
+    }
+  }
+}

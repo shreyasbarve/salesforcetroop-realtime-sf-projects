@@ -1,0 +1,48 @@
+<template>
+  <div class="banner">
+    <img src={userPic} alt="User Pic" class="profile-pic" />
+    <div class="name">{fullName}</div>
+    <div class="designation">{designation} @ {companyName}</div>
+    <div class="location">{companyLocation}</div>
+
+    <!-- social media icons -->
+
+    <div>
+      <template if:true={linkedinUrl}>
+        <a href={linkedinUrl} target="_blank">
+          <img src={linkedin} alt="linkedin image" class="social-icon" />
+        </a>
+      </template>
+
+      <template if:true={youtubeUrl}>
+        <a href={youtubeUrl} target="_blank">
+          <img src={youtube} alt="youtube image" class="social-icon" />
+        </a>
+      </template>
+
+      <template if:true={githubUrl}>
+        <a href={githubUrl} target="_blank">
+          <img src={github} alt="github image" class="social-icon" />
+        </a>
+      </template>
+
+      <template if:true={twitterUrl}>
+        <a href={twitterUrl} target="_blank">
+          <img src={twitter} alt="twitter image" class="social-icon" />
+        </a>
+      </template>
+
+      <template if:true={trailheadUrl}>
+        <a href={trailheadUrl} target="_blank">
+          <img src={trailhead} alt="trailhead image" class="social-icon" />
+        </a>
+      </template>
+
+      <template if:true={bloggerUrl}>
+        <a href={bloggerUrl} target="_blank">
+          <img src={blogger} alt="blogger image" class="social-icon" />
+        </a>
+      </template>
+    </div>
+  </div>
+</template>

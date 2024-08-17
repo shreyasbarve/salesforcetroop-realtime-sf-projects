@@ -1,0 +1,5 @@
+{
+  "apiName" : "note_taking_app__c",
+  "type" : "sfdc_cms__route",
+  "path" : "routes"
+}

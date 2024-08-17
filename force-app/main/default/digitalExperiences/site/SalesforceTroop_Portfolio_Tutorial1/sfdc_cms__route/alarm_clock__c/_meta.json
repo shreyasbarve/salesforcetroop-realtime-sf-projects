@@ -1,0 +1,5 @@
+{
+  "apiName" : "alarm_clock__c",
+  "type" : "sfdc_cms__route",
+  "path" : "routes"
+}
